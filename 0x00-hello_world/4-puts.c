@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* My puts() project */
+/**
+ *  My puts() project 
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
