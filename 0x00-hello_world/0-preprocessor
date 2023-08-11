@@ -1,2 +1,2 @@
 #!/bin/bash
-cppc $CFILE > c
+gccc $CFILE -E c
