@@ -3,14 +3,14 @@
   * main - program starts here
   * printf: prints content to the screen
   * sizeof: prints the size of the data type it contains
-  * return: always 0 if program runs succesfully
+  * Return: 0 if program runs succesfully
   */
 int main(void)
 {
-	printf("Size of a char: %lu\n", sizeof(char));
-	printf("Size of a int: %lu\n", sizeof(int));
-	printf("Size of a long int: %lu\n", sizeof(long int));
-	printf("Size of a long long int: %llu\n", sizeof(long long int));
-	printf("Size of float: &llu\n", sizeof(float));
+	printf("Size of a char: %u byte(s)\n", sizeof(char));
+	printf("Size of a int: %u byte(s)\n", sizeof(int));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of float: %lu\n byte(s)", sizeof(float));
 	return (0);
 }
