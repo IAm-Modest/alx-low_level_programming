@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
   * jack_bauer - prints minutes of the 24hrs
   */
