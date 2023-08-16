@@ -6,16 +6,17 @@
   */
 int print_last_digit(int n)
 {
-	int l, a;
+	int l, r;
 
 	l = n % 10;
 	if (l < 0)
 	{
-		a = -1 * l;
+		_putchar(-l + 48);
+		r = (-l);
 	} else
 	{
-		a = l;
+		_putchar(l + 48);
+		r = (l);
 	}
-	_putchar(a + 0);
-	return (a);
+	return (r);
 }
