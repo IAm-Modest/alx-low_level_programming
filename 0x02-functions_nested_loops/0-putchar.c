@@ -2,11 +2,16 @@
 #include <unistd.h>
 /**
   * main - begins the program
-  * Return:0 for a successful program
+  * _putchar: prints to stdout
+  * Return: 0 for a successful program
   */
 int main(void)
 {
-	/* _putchar - prints to stdout */
+	int _putchar(char c)
+	{
+		return (write(1, &c, 1));
+	}
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,15 +23,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-}
-
-/**
-  * _putchar: writes the parameter to stdout
-  * @c: The character to print
-  * Return: On success 1.
-  * On error, -1 is returned, and errno is set appropriately.
-  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
