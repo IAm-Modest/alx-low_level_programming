@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 /**
   * main - begins the program
   * _putchar: prints to stdout
