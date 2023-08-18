@@ -15,6 +15,7 @@ int _isupper(int c)
 		n = 1;
 		_putchar(c + ':');
 		_putchar(32 + '1');
+		_putchar('?');
 	} else
 	{
 		n = 0;
