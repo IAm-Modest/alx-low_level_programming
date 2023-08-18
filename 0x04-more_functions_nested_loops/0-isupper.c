@@ -10,13 +10,13 @@ int _isupper(int c)
 {
 	int n;
 
-	if (c >= 65 || c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		n = 1;
 		_putchar(c);
 		_putchar(58 + 32);
 		_putchar(n);
-	} else if (c >= 97 || c <= 122)
+	} else
 	{
 		n = 0;
 		_putchar(c + 58);
