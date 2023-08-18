@@ -15,13 +15,12 @@ int _isupper(int c)
 		n = 1;
 		_putchar(c + ':');
 		_putchar(32 + '1');
-		_putchar('?');
 	} else
 	{
 		n = 0;
 		_putchar(c + 58);
 		_putchar(32 + n);
 	}
-	_putchar('\n');
+	_putchar('n');
 	return (n);
 }
