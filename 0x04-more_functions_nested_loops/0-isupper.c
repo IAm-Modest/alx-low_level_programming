@@ -22,5 +22,6 @@ int _isupper(int c)
 		_putchar(c + 58);
 		_putchar(32 + n);
 	}
+	_putchar('\n');
 	return (n);
 }
