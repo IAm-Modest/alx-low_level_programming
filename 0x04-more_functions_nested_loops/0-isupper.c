@@ -13,9 +13,8 @@ int _isupper(int c)
 	if (c >= 65 && c <= 90)
 	{
 		n = 1;
-		_putchar(c);
-		_putchar(58 + 32);
-		_putchar(n);
+		_putchar(c + ':');
+		_putchar(32 + '1');
 	} else
 	{
 		n = 0;
