@@ -7,18 +7,13 @@
 
 void _puts_recursion(char *s)
 {
-	int n = 0;
-
-	_putchar(s[n]);
-
-	if (s[n] == '\0')
+	if (*s == '\0')
 	{
 		_putchar('\n');
 		return;
 	}
-	else
 	{
-		n++;
-		_puts_recursion(&s[n]);
+		_putchar(*s);
+		_putchar_recursive(s + 1);
 	}
 }
