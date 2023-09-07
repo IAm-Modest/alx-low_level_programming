@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  * _strbrk - function begins here
+  * _strpbrk - function begins here
   * @s: inputted value
   * @accept: value
   * Return: 0
   */
 
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int b;
 
